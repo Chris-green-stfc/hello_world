@@ -1,0 +1,6 @@
+---
+- name: hello world
+  hosts: localhost
+  tasks:
+    - name: create hello world
+      shell: touch ~/hello_world.txt
